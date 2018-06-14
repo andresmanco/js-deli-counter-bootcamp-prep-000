@@ -7,9 +7,10 @@ function takeANumber (line){
   return `Welcome, you are number ${pos}.`;
 }
 
-console.log(takeANumber())
-console.log(takeANumber())
-console.log(takeANumber())
+console.log(takeANumber(katzDeliLine))
+console.log(takeANumber(katzDeliLine))
+console.log(takeANumber(katzDeliLine))
+console.log(nowServing(katzDeliLine))
 
 function nowServing(line){
   if(line.length===0){
