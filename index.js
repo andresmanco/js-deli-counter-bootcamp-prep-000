@@ -19,10 +19,10 @@ function currentLine(line){
   if(line.length > 0){
     for(var i = 0; i<line.length; i++){
       if(i === line.length-1){
-        st =`${st}${i+1}. ${line[i]}`;
+        st +=`${i+1}. ${line[i]}`;
       }
       else{
-        st =`${st}${i+1}. ${line[i]}, `;
+        st +=`${i+1}. ${line[i]}, `;
       }
     }
     return st;
