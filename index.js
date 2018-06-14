@@ -11,6 +11,9 @@ console.log(takeANumber(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
 console.log(nowServing(katzDeliLine))
+console.log(nowServing(katzDeliLine))
+console.log(nowServing(katzDeliLine))
+
 
 function nowServing(line){
   if(line.length===0){
