@@ -7,6 +7,8 @@ function takeANumber (){
 }
 
 console.log(takeANumber())
+console.log(takeANumber())
+console.log(takeANumber())
 
 function nowServing(line){
   if(line.length===0){
